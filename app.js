@@ -8,7 +8,6 @@ app.get('/', (req, res) => {
 });
 
 app.use(express.static((__dirname + '/static')));
-
 app.use(bodyParser.urlencoded({
 	extended: true
 }));
